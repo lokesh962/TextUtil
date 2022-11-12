@@ -44,7 +44,7 @@ function App() {
         
         <Routes>
           <Route exact path="/about" element={<About/>}></Route>
-          <Route exact path="/TextUtils/" element={<Textform heading="Enter The text to analyze" mode={ldmode} alert={showAlert} />}></Route>
+          <Route exact path="/TextUtils" element={<Textform heading="Enter The text to analyze" mode={ldmode} alert={showAlert} />}></Route>
         </Routes>
         </div>
         </Router>
